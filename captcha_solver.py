@@ -11,14 +11,6 @@ class Capsolver:
         self.base_url: str = 'https://api.capsolver.com'
         self.user_agent: str = UserAgent().chrome
         
-        
-    def _proxy_format(self, proxy: str) -> str:
-        if not proxy:
-            return None
-        if '@' in proxy:
-            return proxy
-        return proxy
-        
        
     def create_turnstile_task(self, site_url: str, site_key: str,):
         
