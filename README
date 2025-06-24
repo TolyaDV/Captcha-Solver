@@ -1,0 +1,14 @@
+My First CAPTCHA-Solving Library
+This is my very first library for solving various types of CAPTCHAs using third-party services.
+
+Capsolver Class
+The Capsolver class solves CAPTCHAs through the Capsolver service. Currently, only Cloudflare CAPTCHA solving is implemented — more types will be supported in the future.
+
+Getting Started
+To use CAPTCHA solving, you need to obtain an API key from the CAPTCHA-solving service we will be using.
+
+Next, set up a virtual environment and install the required dependencies:
+
+python -m venv venv
+source venv/bin/activate   # On Windows use: venv\Scripts\activate
+pip install -r requirements.txt
